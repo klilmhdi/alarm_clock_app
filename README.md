@@ -1,16 +1,25 @@
-# alarm_clock_app
-
-A new Flutter project.
+# Alarm App
 
 ## Getting Started
+This is a simple app about Alarm system include o'clock in your currently state, stop watch, alarm, timer
+<img src="screenshots/mockup1.jpg">
+<img src="screenshots/mockup3.jpg">
+## Plugins
+- Timer "Custom"
+- O'Clock this time
+- Stop Watch
+- Menu
+- Google fonts "package"
+- Custom Timer "package"
+- Bloc "package"
+- Intl (for format date and time) "package"
+- Material3
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to use this app
+- You can install application in your device via this repo
+```bash
+git clone https://github.com/klilmhdi/alarm_clock_app.git
+cd alarm_clock_app
+flutter pub get // install plugins
+flutter run
+```
